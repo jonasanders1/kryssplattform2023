@@ -7,7 +7,6 @@ import React from "react";
 import WelcomeRoutes from "./src/Routes/Welcome.Routes";
 import PlanetContextProvider from "./src/providers/PlanetContextProvider";
 
-/**  TEST  **/
 export default function App() {
   const [fontsLoaded] = useFonts({
     Roboto_700Bold,
